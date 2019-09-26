@@ -1,9 +1,18 @@
 <?php
 
-require_once('Nomeado.php');
-require_once('Pelagem.php');
-require_once('Pessoa.php');
-require_once('Gato.php');
+/* ----Sem autoload---
+ require_once('Nomeado.php');
+ require_once('Pelagem.php');
+ require_once('Pessoa.php');
+ require_once('Gato.php');*/
+
+
+
+
+ /* ----Sem autoload---*/
+include_once('autoload.php');
+
+
 
 echo '<br>Criando Pessoa...';
 $pessoa = new Pessoa('1234', 'Karol');
